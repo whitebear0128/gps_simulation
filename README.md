@@ -16,7 +16,8 @@ Code uses React as the frontend, and Node.js as the backend.
 
 # 3.User Interface Overview
 
-![image-20250711171757376](C:\Users\cvsue\AppData\Roaming\Typora\typora-user-images\image-20250711171757376.png)
+<img width="865" height="421" alt="image" src="https://github.com/user-attachments/assets/ec85fb77-f09e-4514-8169-0555bb9eb635" />
+
 
 Fig. 1 Interface for Device Position Reporting and Destination Input
 
@@ -24,7 +25,8 @@ Fig. 1 Interface for Device Position Reporting and Destination Input
 
 Users can also input the current location and target location manually. The system records and prepares for route planning based on the given coordinates.
 
-![image-20250711172001675](C:\Users\cvsue\AppData\Roaming\Typora\typora-user-images\image-20250711172001675.png)
+<img width="865" height="620" alt="image" src="https://github.com/user-attachments/assets/2a0f3b27-cb17-40e1-88d8-b412504d8f49" />
+
 
 Fig. 2 Visualized Route Display After Path Planning
 
