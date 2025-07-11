@@ -1,0 +1,21 @@
+{
+  "name": "gps3",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config client/vite.config.js",
+    "build": "vite build --config client/vite.config.js",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.2.0"
+  }
+}
