@@ -36,10 +36,8 @@ function App () {
     }).setView([startLat, startLng], 16)
     mapRef.current = map
 
-    L.tileLayer('https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-      noWrap: true,
-      bounds: [[-90, -180], [90, 180]]
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map)
 
     L.control.scale().addTo(map)
