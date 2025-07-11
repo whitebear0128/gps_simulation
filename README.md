@@ -16,17 +16,15 @@ Code uses React as the frontend, and Node.js as the backend.
 
 # 3.User Interface Overview
 
-<img width="865" height="421" alt="image" src="https://github.com/user-attachments/assets/ec85fb77-f09e-4514-8169-0555bb9eb635" />
-
+<img width="2517" height="954" alt="image" src="https://github.com/user-attachments/assets/9d89af10-11de-4c5c-8ee4-7941a2b99c9c" />
 
 Fig. 1 Interface for Device Position Reporting and Destination Input
 
 
-
 Users can also input the current location and target location manually. The system records and prepares for route planning based on the given coordinates.
 
-<img width="865" height="620" alt="image" src="https://github.com/user-attachments/assets/2a0f3b27-cb17-40e1-88d8-b412504d8f49" />
 
+<img width="2511" height="1735" alt="image" src="https://github.com/user-attachments/assets/87932af1-02e2-4083-944c-7518aee5a5f5" />
 
 Fig. 2 Visualized Route Display After Path Planning
 
