@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: path.resolve(__dirname, '.'),  // ✅ 明确设置 root 为 client/
+  root: path.resolve(__dirname, '.'),  
   build: {
     outDir: 'dist',
     emptyOutDir: true

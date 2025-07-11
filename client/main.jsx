@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client'
 import L from 'leaflet'
 import 'leaflet-routing-machine'
 
-// 蓝色图标
+// Blue icon
 const blueIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
   iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
 })
 
-// 红色图标
+// Red icon
 const redIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -28,7 +28,7 @@ function App () {
   const [destLat, setDestLat] = useState('')
   const [destLng, setDestLng] = useState('')
 
-  // 初始化地图
+  // Initialize the map
   useEffect(() => {
     const map = L.map('map', {
       fullscreenControl: true,
@@ -59,7 +59,7 @@ function App () {
     }
   }, [])
 
-  // 设置起点（点击按钮）
+  // Set start point (button click)
   const handleSetStart = () => {
     const lat = parseFloat(startLat)
     const lng = parseFloat(startLng)
@@ -77,7 +77,7 @@ function App () {
     }
   }
 
-  // 设置终点（点击按钮）
+  // Set destination point (button click)
   const handleSetDest = () => {
     const lat = parseFloat(destLat)
     const lng = parseFloat(destLng)
@@ -89,11 +89,11 @@ function App () {
     handlePlanRoute(lat, lng)
   }
 
-  // 规划路线
+  // Plan route
   const handlePlanRoute = (lat, lng) => {
     const map = mapRef.current
 
-    // 清除旧路线
+    // Remove old route
     if (routingRef.current) {
       map.removeControl(routingRef.current)
     }
