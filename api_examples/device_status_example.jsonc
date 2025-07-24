@@ -1,0 +1,128 @@
+{
+  // Unique device identifier
+  "uuid": "device-uuid-123",
+
+  // Real-time GPS position in latitude, longitude, and altitude (meters)
+  "current_position": { 
+    "lat": 43.6532, // Latitude
+    "lon": -79.3832, // Longitude
+    "alt": 120 // Altitude (meters)
+  },
+
+  // Altitude above home/takeoff point (meters)
+  "relative_altitude": 118.5,
+
+  // Speed over ground (m/s)
+  "ground_speed": 12.4,
+
+  // Rate of climb or descent (m/s)
+  "vertical_speed": -1.8,
+
+  // Drone's compass heading in degrees (0–359)
+  "heading": 270,
+
+  // Rotation around vertical axis (degrees)
+  "yaw": 270,
+
+  // Tilt angle forward/backward (degrees)
+  "pitch": -3.5,
+
+  // Tilt angle left/right (degrees)
+  "roll": 0.8,
+
+  // Current control mode (AUTO, MANUAL, LOITER, GUIDED, RTL, etc.)
+  "flight_mode": "AUTO",
+
+  // Battery voltage (Volts)
+  "battery_voltage": 22.4,
+
+  // Battery current draw (Amps)
+  "battery_current": 6.3,
+
+  // Battery level (% remaining)
+  "battery_level": 73,
+
+  // Battery pack temperature (°C)
+  "battery_temperature": 35.6,
+
+  // Estimated time before critical battery (minutes)
+  "estimated_flight_time_remaining": 8.2,
+
+  // RPMs of each motor (if available)
+  "motor_rpms": [1300, 1320, 1290, 1310],
+
+  // ESC health summary (OK, overheat, error)
+  "ESC_status": "OK",
+
+  // Indicates if payload is still on board
+  "payload_status": "attached",
+
+  // Weight of current payload (kg)
+  "payload_weight": 1.8,
+
+  // Camera state: idle, recording, or photo_capturing
+  "camera_status": "recording",
+
+  // Gimbal angle in degrees
+  "camera_angle": { "pitch": -30, "yaw": 0 },
+
+  // Whether video recording is active
+  "recording_status": "ON",
+
+  // Timestamp of last captured frame/photo
+  "image_timestamp": "2025-07-23T05:20:10.322Z",
+
+  // Remote control signal strength (0–100%)
+  "RC_signal_strength": 85,
+
+  // Quality of telemetry connection (% or RSSI)
+  "telemetry_link_quality": 78,
+
+  // Control or video stream latency (ms)
+  "latency": 240,
+
+  // Distance to obstacles in meters
+  "obstacle_distance": { "front": 4.5, "left": 7.2, "right": 6.8 },
+
+  // Directions where obstacle threshold is breached
+  "proximity_alerts": ["front"],
+
+  // RTK GNSS fix type (NONE, FLOAT, FIXED)
+  "RTK_status": "FIXED",
+
+  // Horizontal and vertical dilution of precision
+  "position_accuracy": { "hdop": 0.7, "vdop": 1.1 },
+
+  // Current failsafe state (idle, RTL_triggered, etc.)
+  "failsafe_status": "idle",
+
+  // Whether RTH has been initiated
+  "return_to_home_triggered": false,
+
+  // Whether emergency landing is currently active
+  "emergency_landing_active": false,
+
+  // Onboard flight controller CPU usage (%)
+  "CPU_usage": 32.5,
+
+  // Controller board internal temperature (°C)
+  "internal_temperature": 41.2,
+
+  // Percentage of onboard log storage used
+  "log_storage_usage": 78,
+
+  // Current progress of waypoint mission
+  "waypoint_progress": { "current": 3, "total": 8 },
+
+  // Real-time distance to takeoff/home location (meters)
+  "distance_to_home": 253.7,
+
+  // Whether the drone is inside or has breached the defined geofence
+  "geofence_status": "inside",
+
+  // Magnetic field interference level (low, medium, high)
+  "compass_interference": "low",
+
+  // Status summary of key onboard sensors
+  "sensor_health": { "IMU": "OK", "Barometer": "OK", "GPS": "OK" }
+} 
