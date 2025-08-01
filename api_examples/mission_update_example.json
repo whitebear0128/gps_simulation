@@ -1,0 +1,52 @@
+{
+  "mission_id": "MIS_20250723_001",
+  "device_id": "DRONE_X900_21",
+  "mission_status": "in_progress",
+
+  "valid": true,
+  "mission_type": "delivery",
+
+  "release_time": "2025-07-23T13:50:00Z",
+  "last_updated": "2025-07-23T13:57:33Z",
+
+  "start": {
+    "lat": 43.651070,
+    "lon": -79.347015,
+    "alt": 10,
+    "timestamp": "2025-07-23T14:00:00Z"
+  },
+  "via": [
+    { "lat": 43.652000, "lon": -79.350000, "alt": 20 },
+    { "lat": 43.655000, "lon": -79.360000, "alt": 25 }
+  ],
+  "goal": {
+    "lat": 43.662892,
+    "lon": -79.395656,
+    "alt": 30,
+    "eta": "2025-07-23T14:12:00Z"
+  },
+
+  "mission_distance_meters": 1540.2,
+  "expected_duration_sec": 720,
+  "actual_duration_sec": null,
+  
+  "priority": "normal",
+  "scheduled_timeslot": {
+    "start": "2025-07-23T13:55:00Z",
+    "end": "2025-07-23T14:30:00Z"
+  },
+
+  "environment_constraints": {
+    "geofence_zone_ids": ["Z001", "Z002"],
+    "max_altitude_m": 120,
+    "no_fly_zone_violations": false
+  },
+
+  "payload_info": {
+    "type": "cargo",
+    "weight_kg": 1.8,
+    "temperature_sensitive": false
+  },
+
+  "route_version": 2
+} 

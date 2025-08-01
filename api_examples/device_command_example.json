@@ -1,0 +1,98 @@
+[
+  {
+    "uuid": "device-uuid-123",
+    "command": "ARM",
+    "value": true
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "TAKEOFF",
+    "value": 10
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "LAND"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "RTH"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "GOTO",
+    "value": { "lat": 43.6532, "lon": -79.3832, "alt": 50 }
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "SET_VELOCITY",
+    "value": { "vx": 1.0, "vy": 0.0, "vz": 0.0 }
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "SET_YAW",
+    "value": 90
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "HOVER"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "SET_ATTITUDE",
+    "value": { "pitch": 0, "roll": 0, "yaw": 90 }
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "MISSION_START"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "WAYPOINT",
+    "value": { "lat": 43.1, "lon": -79.2, "alt": 20 }
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "MISSION_END"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "MISSION_PAUSE"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "MISSION_RESUME"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "START_VIDEO"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "STOP_VIDEO"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "TAKE_PHOTO"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "SET_GIMBAL",
+    "value": { "pitch": -45, "yaw": 0 }
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "EMERGENCY_STOP"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "GET_STATUS"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "GET_POSITION"
+  },
+  {
+    "uuid": "device-uuid-123",
+    "command": "GET_BATTERY"
+  }
+] 
